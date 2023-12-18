@@ -4,14 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRAFALGAR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- mironshoh header va hero-->
+    <div class="container">
+        <header class="flex justify-between mt-32 items-center">
+            <div class="flex items-center">
+                <img src="images/logojon.svg" alt="">
+            </div>
+            <div>
+                <ul class="flex gap-x-10 items-center">
+                    <li><a class="font-mulish text-dark-200/50 text-lg group hover:text-dark-200 hover:font-bold transition" href="#">Home</a></li>
+                    <li><a class="font-mulish text-dark-200/50 text-lg group hover:text-dark-200 hover:font-bold transition" href="#">Find a doctor</a></li>
+                    <li><a class="font-mulish text-dark-200/50 text-lg group hover:text-dark-200 hover:font-bold transition" href="#">Apps</a></li>
+                    <li><a class="font-mulish text-dark-200/50 text-lg group hover:text-dark-200 hover:font-bold transition" href="#">Testimonials</a></li>
+                    <li><a class="font-mulish text-dark-200/50 text-lg group hover:text-dark-200 hover:font-bold transition" href="#">About us</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <section class="flex items-center justify-between mt-20">
+                <div class="w-[445px]">
+                    <h1 class="font-mulish font-bold text-5xl">Virtual healthcare 
+                        for you</h1>
+                    <p class="text-gray-100 mt-6 text-xl font-light">Trafalgar provides progressive, and affordable 
+                        healthcare, accessible on mobile and online 
+                        for everyone</p>
+                    <button class="mt-10"><a class="px-10 py-3 bg-blue border rounded-[55px] mt-10 text-white text-lg font-bold" href="#">Consult today</a></button>
+                </div>
+                <div>
+                    <img src="images/trafalgar-header illustration 1.png" alt="">
+                </div>
+            </section>
+        </main>
 
+        
+    
     <!-- mironshoh -->
 
     <!-- Islom services-->
 
     <!-- Islom -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily:{
+                    'mulish':'Mulish'
+                },
+                container:{
+                    center:true,
+                    maxWidth:'1200px',
+                    padding:'5rem'
+                },
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        blue:'#458FF6',
+                        dark:{
+                            100:'#233348',
+                            200:'#1F1534'
+                        },
+                        gray:{
+                            100:'#7D7987'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
 </body>
 </html>
